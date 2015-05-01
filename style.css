@@ -1,0 +1,27 @@
+
+html {
+    margin: 0;
+    padding: 0;
+    background: url(cool-red-black-wallpaper-backgrounds.jpg) no-repeat center center fixed;
+    
+    background-size: cover;
+	}
+body { 
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	color: #555753; 
+
+	margin: 0; 
+	padding: 0;
+	}
+#logo{
+    width: 950px;
+    height:2000px;
+    border: solid red 8px;
+    background-color: darkred;
+    margin-top: -30px;
+
+
+}
+
+
