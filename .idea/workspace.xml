@@ -23,11 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="607" selection-end="610" vertical-scroll-proportion="0.38819876" vertical-offset="362" max-vertical-offset="1122">
+            <state line="36" column="0" selection-start="607" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1122">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="1" selection-start="229" selection-end="229" vertical-scroll-proportion="0.112769485" vertical-offset="0" max-vertical-offset="603">
+              <folding>
+                <marker date="1431102075262" expanded="true" signature="95:225" placeholder="INSERT INTO ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,11 +46,8 @@
       <file leaf-file-name="page2.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="7" selection-start="773" selection-end="773" vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="697">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="35" column="7" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="697">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,11 +55,8 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="-21.153847" vertical-offset="436" max-vertical-offset="1173">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#table#0;n#div#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="58" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1173">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -78,6 +83,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/page2.php" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/model.php" />
       </list>
     </option>
   </component>
@@ -152,6 +158,7 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ParktudorPlanner" />
   </component>
   <component name="RunManager" selected="PHP Web Application.Unnamed">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -194,7 +201,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -210,8 +217,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
@@ -234,6 +241,32 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="607" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="7" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cool-red-black-wallpaper-backgrounds.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="42" column="5" selection-start="665" selection-end="665" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
@@ -351,28 +384,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="-21.153847" vertical-offset="436" max-vertical-offset="1173">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="58" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0" vertical-offset="436" max-vertical-offset="1173">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="7" selection-start="773" selection-end="773" vertical-scroll-proportion="-22.884615" vertical-offset="0" max-vertical-offset="697">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#div#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="35" column="7" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="697">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="607" selection-end="610" vertical-scroll-proportion="0.38819876" vertical-offset="362" max-vertical-offset="1122">
+        <state line="36" column="0" selection-start="607" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="362" max-vertical-offset="1122">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="229" selection-end="229" vertical-scroll-proportion="0.112769485" vertical-offset="0" max-vertical-offset="603">
+          <folding>
+            <marker date="1431102075262" expanded="true" signature="95:225" placeholder="INSERT INTO ..." />
+          </folding>
         </state>
       </provider>
     </entry>
