@@ -21,17 +21,40 @@ body {
     background-color: darkred;
     margin-top: -30px;
 
-
-
-
-    
 }
-#heady{
-
-font-family: cursive;
-    font-style: coronets;
-
+.heady
+{   font-family: 'Pacifico';
+    font-size: 50px;
+    color: black;
+    line-height: 0px;
 
 }
+table,td{
 
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    table-layout: fixed;
+
+
+}
+td{
+    text-align: center;
+    color:lightgrey;
+    font-size: 19px;
+    font-family: arial;
+}
+th,td{
+padding: 5px;
+}
+.sent{
+    font-family: arial;
+    font-size: 19px;
+    color: lightgrey;
+}
+a.button {
+    border: 1px solid darkred;
+    background: red;
+    border-radius: 25px;
+    top: 20px;
+}
 
