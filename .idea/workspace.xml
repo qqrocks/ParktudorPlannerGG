@@ -35,8 +35,13 @@
       <file leaf-file-name="page2.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="7" selection-start="339" selection-end="339" vertical-scroll-proportion="-0.0" vertical-offset="238" max-vertical-offset="1615">
-              <folding />
+            <state line="15" column="15" selection-start="512" selection-end="512" vertical-scroll-proportion="0.43814433" vertical-offset="0" max-vertical-offset="582">
+              <folding>
+                <marker date="1431103013757" expanded="true" signature="95:213" placeholder="INSERT INTO ..." />
+                <marker date="1431103013757" expanded="true" signature="315:381" placeholder="INSERT into ..." />
+                <marker date="1431103013757" expanded="true" signature="315:389" placeholder="INSERT into ..." />
+                <marker date="1431103013757" expanded="true" signature="315:397" placeholder="INSERT into ..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,9 +80,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
+    <option name="x" value="-65" />
+    <option name="width" value="724" />
     <option name="height" value="776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -182,15 +186,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-65" y="0" width="724" height="776" extended-state="0" />
+=======
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+<<<<<<< HEAD
     <editor active="true" />
+=======
+>>>>>>> origin/master
+    <editor active="false" />
+>>>>>>> origin/master
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+=======
+<<<<<<< HEAD
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08050848" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
+>>>>>>> origin/master
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -380,11 +400,14 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357" />
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
     <entry file="file://$PROJECT_DIR$/model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="1" selection-start="229" selection-end="229" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170" />
       </provider>
     </entry>
+>>>>>>> origin/master
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="58" column="0" selection-start="1424" selection-end="1424" vertical-scroll-proportion="-21.153847" vertical-offset="436" max-vertical-offset="1173" />
@@ -407,10 +430,39 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/page2.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="4" selection-start="617" selection-end="617" vertical-scroll-proportion="0.13509317" vertical-offset="525" max-vertical-offset="1207">
+=======
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/cool-red-black-wallpaper-backgrounds.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="15" selection-start="512" selection-end="512" vertical-scroll-proportion="0.43814433" vertical-offset="0" max-vertical-offset="582">
+          <folding>
+            <marker date="1431103013757" expanded="true" signature="95:213" placeholder="INSERT INTO ..." />
+            <marker date="1431103013757" expanded="true" signature="315:381" placeholder="INSERT into ..." />
+            <marker date="1431103013757" expanded="true" signature="315:389" placeholder="INSERT into ..." />
+            <marker date="1431103013757" expanded="true" signature="315:397" placeholder="INSERT into ..." />
+=======
+    <entry file="file://$PROJECT_DIR$/page2.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state line="14" column="7" selection-start="339" selection-end="339" vertical-scroll-proportion="0.38511327" vertical-offset="0" max-vertical-offset="1615">
+          <folding>
+            <element signature="n#style#0;n#table#0;n#div#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+>>>>>>> origin/master
+          </folding>
+=======
+        <state line="14" column="7" selection-start="339" selection-end="339" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1615">
+>>>>>>> origin/master
           <folding />
+>>>>>>> ad9e9c470b0e1a8aa8c776bd8e3da4fb98a1273d
         </state>
       </provider>
     </entry>
