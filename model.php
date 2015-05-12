@@ -1,9 +1,14 @@
 <?php
 require_once('database.php');
-function getAdvisors()
+
+function getAdvisorsbyGrade($gID)
 {
     global $db;
-    $query='SELECT a_f_name, a_l_name from advisors';
+    $query='SELECT from a_f_name, a_l_name
+    from advisors
+     INNER JOIN students
+     ON advisors.advisorID = studente.advisorID
+     WHERE ';
     $db->query($query);
 }
 function getCourses($stuID)
