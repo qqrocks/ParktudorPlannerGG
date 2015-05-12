@@ -82,6 +82,16 @@
 
 
         </table>
+    <div class="add">
+        <p class="text">Add a Student to this Advisory</p>
+        <label>First Name:</label>
+        <input class="textbox" type="text" name="f_name"/><br />
+        <label>Last Name:</label>
+        <input class="textbox" type="text" name="l_name"/><br />
+        <label>Grade:</label>
+        <input class="textbox" type="text" name="grade"/><br />
+        <a href="#" class="myButton">   Add   </a>
+    </div>
     </div></center>
 
 
