@@ -34,7 +34,7 @@ table,td{
     border: 1px solid lightgrey;
     border-collapse: collapse;
     table-layout: fixed;
-
+    margin-right: 150px;
 
 }
 td{
@@ -44,7 +44,8 @@ td{
     font-family: arial;
 }
 th,td{
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .sent{
     font-family: arial;
@@ -56,5 +57,22 @@ a.button {
     background: red;
     border-radius: 25px;
     top: 20px;
+}
+.special
+{
+    margin-left: 800px;
+    margin-top: -265px;
+
+}
+.celly{
+
+    padding: 15px;
+}
+.editit{
+height: 49px;
+    width: 50px;
+}
+.celly2{
+    padding:5px;
 }
 
