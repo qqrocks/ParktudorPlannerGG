@@ -91,12 +91,12 @@
 </table>
         <table class="special2">
             <tr>
-                <td class="celly2">
-                    Required Credits Earned?
+                <td class="celly3">
+                    Graduate?
                 </td>
             </tr>
             <tr>
-                <td class="celly2">
+                <td class="celly4">
                     MARGET PHP
                 </td>
             </tr>
