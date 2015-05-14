@@ -96,7 +96,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="celly">
+                <td class="celly2">
                     MARGET PHP
                 </td>
             </tr>
