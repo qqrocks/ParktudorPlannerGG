@@ -78,7 +78,7 @@
         </table>
 <table class="special">
     <tr>
-        <td class="celly">
+        <td class="celly2">
             Edit
         </td>
     </tr>
@@ -89,7 +89,19 @@
     </tr>
 
 </table>
+        <table class="special2">
+            <tr>
+                <td class="celly2">
+                    Required Credits Earned?
+                </td>
+            </tr>
+            <tr>
+                <td class="celly">
+                    MARGET PHP
+                </td>
+            </tr>
 
+        </table>
     </div>
 </center>
 
