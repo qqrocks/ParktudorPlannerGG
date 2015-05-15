@@ -1,13 +1,21 @@
 <?php
-require_once('database.php');
 
-
-
-function getAdvisees($adID)
+function getAdvisorByGrade($grade_id)
 {
-    global $db;
-    $query='SELECT studentID FROM students WHERE advisorID=$adID';
-    $db->query($query);
+    $db=Database::getDB();
+    $query='SELECT advisorID, a_f_name, a_l_name FROM advisors
+    INNER JOIN students.advisorID = advisors.advisorID;
+    WHERE students.gradeID=$grade_id';
+    $result=$db->query($query);
+    $advisors = array();
+    foreach($result as $row){
+        $ad=new advisor();
+        $ad->setId($row['advisorID']);
+        $ad->setFirst($row['a_f_name']);
+        $ad->setLast($row['a_l_name']);
+        $advisors[]=$ad;
+
+    }
 }
 
 function add_advisor($adID, $fname, $lname)
@@ -25,16 +33,3 @@ function get_advisor($adID)
 
 
 
-function add_credit($credID, $number)
-{
-    global $db;
-    $query='INSERT into credit(creditID,creditNum) VALUES ($credID, $number)';
-    $db->exec($query);
-}
-
-function add_period($perID, $num)
-{
-    global $db;
-    $query='INSERT into period(periodID, periodNum) VALUES ($perID, $num)';
-    $db->exec($query);
-}
