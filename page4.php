@@ -17,7 +17,7 @@
         <div class="heady"><p>freshman</p></div>
         <table>
             <tr>
-                <td>
+                <td class="special">
                     Credits Earned
                 </td>
                 <td class="special">
@@ -25,7 +25,7 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="special">
                     Free Periods
                 </td>
                 <td class="special">
@@ -33,7 +33,7 @@
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="special">
                     Periods planned
                 </td>
                 <td class="special">

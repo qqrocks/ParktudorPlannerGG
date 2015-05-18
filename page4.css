@@ -31,7 +31,7 @@ body {
 }
 table,td{
 
-    border: 1px solid darkgray;
+    border: 1px solid #434343;
     border-collapse: collapse;
     table-layout: fixed;
     margin-right: -175px;
@@ -42,6 +42,6 @@ td{
     padding: 5px;
 }
 .special{
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left:20px;
+    padding-right: 55px;
 }
