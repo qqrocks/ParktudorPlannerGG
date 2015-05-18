@@ -1,6 +1,6 @@
 <?php
-class advisor{
-    private $f_name, $l_name, $id, $adv;
+class student{
+    private $f_name, $l_name, $id, $adv, $grade;
 
     public function _construct()
     {}
@@ -20,6 +20,11 @@ class advisor{
     {
         $this->$adv=$a_id;
     }
+    public function setGrade($gr)
+    {
+        $this->$grade=$gr;
+    }
+
     public function getId()
     {
         return $this->$id;
@@ -35,5 +40,9 @@ class advisor{
     public function getAd()
     {
         return $this->adv;
+    }
+    public function getGrade()
+    {
+        return $this->$grade;
     }
 }

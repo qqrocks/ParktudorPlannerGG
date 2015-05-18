@@ -1,6 +1,7 @@
 <?php
-
-function getAdvisorByGrade($grade_id)
+class advisor_db{
+public static function _construct(){}
+public static function getAdvisorsByGrade($grade_id)
 {
     $db=Database::getDB();
     $query='SELECT advisorID, a_f_name, a_l_name FROM advisors
@@ -16,18 +17,38 @@ function getAdvisorByGrade($grade_id)
         $advisors[]=$ad;
 
     }
+    return $advisors;
 }
 
-function add_advisor($adID, $fname, $lname)
+public static function add_advisor($advisor)
 {
-    global $db;
-    $query='INSERT into advisors(advisorID, a_f_name, a_l_name) VALUES ($adID, $fname, $lname)';
+    $db=Database::getDB();
+    $fn=$advisor->getFirst();
+    $ln=$advisor->getLast();
+    $id=$advisor->getID();
+
+    $query="INSERT into advisors(advisorID, a_f_name, a_l_name) VALUES ('$id', '$fn', '$ln')";
     $db->exec($query);
 }
-function get_advisor($adID)
+public static function delete_ad($ad_id)
 {
-    $query='SELECT * advisors WHERE advisorID=$adID';
-    $db->query($query);
+    $db=Datatbase::getDB();
+    $query="DELETE FROM advisors WHERE advisorID='$ad_id'";
+    $db->exec($query);
+
+}
+public static function get_advisor($adID)
+{
+    $db=Database::getDB();
+    $query="SELECT * FROM advisors WHERE advisorID=$adID";
+    $result=$db->query($query);
+    $row=$result->fetch();
+    $adv=new advisor();
+    $adv->setId($row['advisorID']);
+    $adv->setFirst($row['a_f_name']);
+    $adv->setLast($row['a_l_name']);
+
+}
 }
 
 
