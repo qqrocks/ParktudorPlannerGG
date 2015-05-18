@@ -1,5 +1,21 @@
 <?php
-function getClassCreds($classID)
+class courses_db
+{
+
+
+public static function getClassesbyDept($dID)
+{
+    $db=Database::getDB();
+    $query='SELECT * from courses WHERE departmentID=$dId';
+    $result=$db->query($query);
+    $classes=array();
+    foreach($result as $row)
+    {
+        $c= new course();
+        $c->setId($row['courseID']);
+    }
+}
+public static function getClass($classID)
 {
     global $db;
     $query='SELECT creditNum
@@ -15,3 +31,5 @@ function add_class($cID,$cName, $credID, $perID, $deptID, $required)
     $query='INSERT into courses(courseID, courseName, creditID, periodID, deptID, required) VALUES ($cID, $cName, $credID, $perID, $deptID, $required)';
     $db->exec($query);
 }
+}
+?>
