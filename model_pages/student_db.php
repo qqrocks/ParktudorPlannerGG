@@ -16,7 +16,7 @@ public static function getStuByAd($a_id)
         $stu->setFirst($row['s_f_name']);
         $stu->setAd($a_id);
         $stu->setLast($row['s_l_name']);
-        $stu->setgrade(grade_db::getGrade($row['gradeID']));
+        $stu->setgrade(($row['gradeID']));
         $students[]=$stu;
     }
     return $students;
@@ -32,7 +32,7 @@ public static function getStuByAd($a_id)
         $stu->setFirst($row['s_f_name']);
         $stu->setLast($row['s_l_name']);
         $stu->setAd($row['advisorID']);
-        $stu->setGrade(grade_db::getGrade($row[gradeID]));
+        $stu->setGrade($row['gradeID']);
         return $stu;
 
     }
@@ -42,8 +42,8 @@ public static function add_student($stu){
     $fname=$stu->getFirst();
     $lname=$stu->getLast();
     $grade=$stu->getGrade();
-    $stuID=$stu->getGrade();
-    $query="INSERT INTO students(studentID, s_f_name, s_l_name, gradeID, studentID) VALUES ($stuID, $fname, $lname, $grade, $stuID)";
+    $aID=$stu->getAd();
+    $query="INSERT INTO students(studentID, s_f_name, s_l_name, gradeID, advID) VALUES ($stuID, $fname, $lname, $grade, $aID)";
     $db->exec($query);
 }
     public static function delete_stu($s_id)
@@ -52,5 +52,17 @@ public static function add_student($stu){
         $query="DELETE FROM students WHERE studentID='$s_id'";
         $db->exec($query);
 
+    }
+  public static function delByGrade($gID)
+  {
+      $db=Database::getDB();
+      $query="DELETE FROM students WHERE gradeID='$gID'";
+      $db->exec($query);
+  }
+    public static function upDateGrade($currGrade, $nextGrade)
+    {
+        $db=Database::getDB();
+        $query="UPDATE students SET gradeID=$nextGrade WHERE gradeID=$currGrade";
+        $db->exec($query);
     }
 }

@@ -11,10 +11,16 @@ public static function getGrade($gID)
     $row=$result->fetch();
     return $row['Name'];
 }
-public function add_grade($gID, $label)
+public static function add_grade($gID, $label)
 {
-    global $db;
-    $query='INSERT into grade_level(gradeID, Name) VALUES ($gID, $label)';
+    $db=Database::getDB();
+    $query="INSERT into grade_level(gradeID, Name) VALUES ($gID, $label)";
+    $db->exec($query);
+}
+public static function changeName($gID, $newName)
+{
+    $db=Database::getDB();
+    $query="UPDATE grade_level SET Name=$newName WHERE gradeID=$gID";
     $db->exec($query);
 }
 }
