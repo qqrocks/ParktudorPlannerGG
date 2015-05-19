@@ -1,6 +1,6 @@
 <?php
 class course{
-    private $name, $id, $d_id, $periods, $credits, $req;
+    private $name, $id, $d_id, $periods, $credits, $semesters, $req;
 
     public function _construct()
     {}
@@ -29,7 +29,10 @@ class course{
     {
         $this->$req=$required;
     }
-
+    public function setSem($sem)
+    {
+        $this->$semesters=$sem;
+    }
     public function getId()
     {
         return $this->$id;
@@ -54,6 +57,10 @@ class course{
     public function getReq()
     {
         return $this->$req;
+    }
+    public function getSem()
+    {
+        return $this->$semesters;
     }
 
 }

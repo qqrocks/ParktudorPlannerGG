@@ -8,7 +8,8 @@ class credit_db
         $db=Database::getDB();
         $query="SELECT creditNum from credit WHERE creditID=$credID";
         $res=$db->query($query);
-        return $res->fetch();
+        $row= $res->fetch();
+        return $row['creditNum'];
     }
     public static function newCred($creditID, $num)
     {

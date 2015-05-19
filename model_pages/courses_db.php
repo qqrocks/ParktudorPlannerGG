@@ -18,6 +18,7 @@ public static function getClassesbyDept($dID)
         $c->setDept($dID);
         $c->setReq($row['required']);
         $c->setPer($row['periodID']);
+        $c->setSem($row['semesters']);
         $classes[]=$c;
     }
     return $classes;
@@ -35,6 +36,7 @@ public static function getClass($classID)
     $c->setDept($row['deptID']);
     $c->setReq($row['required']);
     $c->setPer($row['periodID']);
+    $c->setSem($row['semesters']);
     return $c;
 
 
@@ -48,7 +50,8 @@ public static function add_class($class)
     $perID=$class->getPer();
     $deptID=$class->getDept();
     $required=$class->getReq();
-    $query="INSERT into course(courseID, courseName, creditID, periodID, deptID, required) VALUES ($cID, $cName, $credID, $perID, $deptID, $required)";
+    $semesters=$class->getSem();
+    $query="INSERT into course(courseID, courseName, creditID, periodID, deptID, semesters, required) VALUES ($cID, $cName, $credID, $perID, $deptID, $semesters, $required)";
     $db->exec($query);
 }
 public static function del_class($c_ID)

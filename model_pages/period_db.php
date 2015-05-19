@@ -9,7 +9,8 @@ class period_db
         $db=Database::getDB();
         $query="SELECT periodNum from period WHERE periodID='$perID'";
         $res=$db->query($query);
-        return $res->fetch();
+        $row=$res->fetch();
+        return $row['periodNum'];
     }
     public static function addPer($pID, $num)
     {
