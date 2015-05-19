@@ -29,19 +29,30 @@ body {
     margin-right:650px;
 
 }
-table,td{
+.tabel{
 
     border: 1px solid #434343;
     border-collapse: collapse;
     table-layout: fixed;
-    margin-right: -175px;
-    margin-top: -60px;
+
+    margin-top: -100px;
 
 }
 td{
     padding: 5px;
 }
 .special{
+    border: 1px solid #434343;
+    border-collapse: collapse;
+    table-layout: fixed;
     padding-left:20px;
     padding-right: 55px;
+    color: black;
+    font-family: arial;
+}
+.tabel2{
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    table-layout: fixed;
+
 }

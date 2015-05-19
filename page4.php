@@ -14,11 +14,11 @@
 <center><img src= "logo.png" alt="some_text" style="width: 222px; height: 169px  "></center>
 <center><div id="logo" >
 
-        <div class="heady"><p>freshman</p></div>
-        <table>
+        <div class="heady"><p>Freshman</p></div>
+        <table class="tabel">
             <tr>
                 <td class="special">
-                    Credits Earned
+                    Credits Earned:
                 </td>
                 <td class="special">
                     marget php
@@ -26,7 +26,7 @@
             </tr>
             <tr>
                 <td class="special">
-                    Free Periods
+                    Free Periods:
                 </td>
                 <td class="special">
                     marget php
@@ -34,12 +34,36 @@
             </tr>
             <tr>
                 <td class="special">
-                    Periods planned
+                    Periods planned:
                 </td>
                 <td class="special">
                     marget php
                 </td>
             </tr>
+        </table>
+        <table class="tabel2">
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+
+
         </table>
 
     </div>
