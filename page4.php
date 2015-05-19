@@ -41,25 +41,227 @@
                 </td>
             </tr>
         </table>
-        <table class="tabel2">
+        <table class="tabeli">
             <tr>
-                <td>
-
+                <td class="tabel2">
+                    English
+                </td>
+                <td class="tabel2">
+                    Math
+                </td>
+                <td class="tabel2">
+                    Science
+                </td>
+                <td class="tabel2">
+                    Language
                 </td>
             </tr>
             <tr>
-                <td>
+                <td class="tabel2">
+                    <select class="qq">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </td>
+                <td class="tabel2">
+                    <select class="qq">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </td>
+                <td class="tabel2">
+                    <select class="qq">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </td>
+                <td class="tabel2">
+                    <select class="qq">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </td>
 
+            </tr>
+            <tr>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+
+            </tr>
+            <tr>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+
+            </tr>
+            <tr>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                   ~
+                </td>
+
+            </tr>
+            <tr>
+
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+            </tr>
+
+
+        </table>
+        <table class="tabeli">
+            <tr>
+                <td class="tabel2">
+                   History
+                </td>
+                <td class="tabel2">
+                    Electives
+                </td>
+                <td class="tabel2">
+                    Sports
+                </td>
+                <td class="tabel2">
+                    Summer School
                 </td>
             </tr>
             <tr>
-                <td>
-
+                <td class="tabel2">
+                    <select class="qq">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
                 </td>
+                <td class="tabel2">
+                    <select class="qq">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </td>
+                <td class="tabel2">
+                    <select class="qq">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </td>
+                <td class="tabel2">
+                    <select class="qq">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </td>
+
             </tr>
             <tr>
-                <td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
 
+            </tr>
+            <tr>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+
+            </tr>
+            <tr>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+
+            </tr>
+            <tr>
+
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
+                </td>
+                <td class="tabel2">
+                    ~
                 </td>
             </tr>
 

@@ -50,9 +50,28 @@ td{
     color: black;
     font-family: arial;
 }
+.tabeli{
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
 .tabel2{
     border: 1px solid lightgrey;
     border-collapse: collapse;
     table-layout: fixed;
-
+padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: lightgrey;
+}
+.qq{
+    background-color: red;
+    border: 2px solid darkred;
 }
