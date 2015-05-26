@@ -1,6 +1,4 @@
-<?php
-require('/model_pages/grade_db.php');
-?>
+
 <html >
 <head>
 
@@ -14,17 +12,23 @@ require('/model_pages/grade_db.php');
 </head>
 
 <body >
-<center><img src= "logo.png" alt="some_text" style="width: 222px; height: 169px  "></center>
+<center>
+<a href="?action=list_advisors"><img src="logo.png" style="width: 222px; height: 169px" ></a>
+</center>
 <center><div id="logo" >
 
         <div class="heady"><p>Welcome Advisors!</p></div>
         <div class="sent">Please select the adivisory of the student you are looking for</div>
         <table style="width:750px">
             <tr>
-                <td><?php echo grade_db::getGrade(9); ?></td>
-                <td><?php echo grade_db::getGrade(10);?></td>
-                <td><?php echo grade_db::getGrade(11);?></td>
-                <td><?php echo grade_db::getGrade(12);?> </td>
+                <?php
+                $grades=grade_db::getGrades();
+                foreach($grades as $grade)
+                {
+                    ?> <td><?php echo grade_db::getGrade($grade);?></td>
+                <?php
+                } ?>
+
             </tr>
             <?php
             $num=0;
@@ -32,22 +36,34 @@ require('/model_pages/grade_db.php');
             ?>
             <tr>
                 <?php if($num<count($g9)){?>
-                <td><?php echo ($g9[$num]->getFirst().' '.$g9[$num]->getLast());?></td>
+                    <td><a href="?action=get_advisory&ad_id=<?php echo $g9[$num]->getID();?>">
+                        <?php echo ($g9[$num]->getFirst().' '.$g9[$num]->getLast());?></td>
+                    </a>
+                    </td>
                 <?php }?>
                 <?php if($num<count($g10)){?>
-                    <td><?php echo ($g10[$num]->getFirst().' '.$g10[$num]->getLast());?></td>
+                   <td><a href="?action=get_advisory&ad_id=<?php echo $g10[$num]->getID();?>">
+                    <?php echo ($g10[$num]->getFirst().' '.$g10[$num]->getLast());?></td>
+                    </a>
+                    </td>
                 <?php }?>
                 <?php if($num<count($g11)){?>
-                    <td><?php echo ($g11[$num]->getFirst().' '.$g11[$num]->getLast());?></td>
+                    <td><a href="?action=get_advisory&ad_id=<?php echo $g11[$num]->getID();?>">
+                        <?php echo ($g11[$num]->getFirst().' '.$g11[$num]->getLast());?></td>
+                    </a>
+                    </td>
                 <?php }?>
                 <?php if($num<count($g12)){?>
-                    <td><?php echo ($g12[$num]->getFirst().' '.$g12[$num]->getLast());?></td>
+                    <td><a href="?action=get_advisory&ad_id=<?php echo $g12[$num]->getID();?>">
+                        <?php echo ($g12[$num]->getFirst().' '.$g12[$num]->getLast());?></td>
+                    </a>
+                    </td>
                 <?php }?>
 
             </tr>
             <?php $num++; } ?>
         </table>
-        <a class="button" href="page2.php" target="_blank">Page 2</a>
+
 
     </div>
 </center>

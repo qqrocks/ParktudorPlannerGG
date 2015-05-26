@@ -11,6 +11,20 @@ public static function getGrade($gID)
     $row=$result->fetch();
     return $row['Name'];
 }
+    public static function getGrades()
+    {
+        $db=Database::getDB();
+        $query="SELECT gradeID FROM grade_level WHERE 1";
+        $result=$db->query($query);
+        $grades=array();
+        foreach($result as $row)
+        {
+            $grades[]=$row['gradeID'];
+        }
+
+        return $grades;
+    }
+
 public static function add_grade($gID, $label)
 {
     $db=Database::getDB();
