@@ -1,4 +1,6 @@
-
+<?php
+require('/model_pages/grade_db.php');
+?>
 <html >
 <head>
 
@@ -19,14 +21,14 @@
         <div class="sent">Please select the adivisory of the student you are looking for</div>
         <table style="width:750px">
             <tr>
-                <td>Freshman</td>
-                <td>Sophmore</td>
-                <td> Junior </td>
-                <td> Senior </td>
+                <td><?php echo grade_db::getGrade(9); ?></td>
+                <td><?php echo grade_db::getGrade(10);?></td>
+                <td><?php echo grade_db::getGrade(11);?></td>
+                <td><?php echo grade_db::getGrade(12);?> </td>
             </tr>
 
             <tr>
-                <td>~</td>
+                <td><?php echo ($g9[0]->getFirst().' '.$g9[0]->getLast());?></td>
                 <td>~</td>
                 <td>~</td>
                 <td>~</td>

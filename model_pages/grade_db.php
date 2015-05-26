@@ -6,7 +6,7 @@ public static function _construct()
 public static function getGrade($gID)
 {
     $db=Database::getDB();
-    $query='SELECT Name FROM grade_level WHERE gradeID=$gid';
+    $query="SELECT Name FROM grade_level WHERE gradeID=$gID";
     $result=$db->query($query);
     $row=$result->fetch();
     return $row['Name'];

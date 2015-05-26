@@ -4,9 +4,7 @@ public static function _construct(){}
 public static function getAdvisorsByGrade($grade_id)
 {
     $db=Database::getDB();
-    $query='SELECT advisorID, a_f_name, a_l_name FROM advisors
-    INNER JOIN students.advisorID = advisors.advisorID;
-    WHERE students.gradeID=$grade_id';
+    $query="SELECT * FROM advisors INNER JOIN students ON students.advisorID = advisors.advisorID WHERE students.gradeID=$grade_id";
     $result=$db->query($query);
     $advisors = array();
     foreach($result as $row){
