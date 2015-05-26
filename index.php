@@ -21,7 +21,7 @@ if (isset($_POST['action'])) {
      $g10=advisor_db::getAdvisorsByGrade(10);
      $g11=advisor_db::getAdvisorsByGrade(11);
      $g12=advisor_db::getAdvisorsByGrade(12);
-     $maxLength=max(count($g9), count($g10), count($g11), count($g12));
-     if($maxLength==count($g9))
+
+
      include('page1.php');
  }
