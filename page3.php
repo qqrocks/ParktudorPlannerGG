@@ -102,6 +102,7 @@
             </tr>
 
         </table>
+        <a class="button" href="page4.php" target="_blank">Page 4</a>
     </div>
 </center>
 

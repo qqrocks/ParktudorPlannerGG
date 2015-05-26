@@ -53,7 +53,7 @@ require('/model_pages/grade_db.php');
             </tr>
             <tr></tr>
         </table>
-
+        <a class="button" href="page2.php" target="_blank">Page 2</a>
 
     </div>
 </center>
