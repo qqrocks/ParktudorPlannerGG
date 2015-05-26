@@ -7,7 +7,7 @@ require('/model_pages/grade_db.php');
     <title>The Park Tudor Planner</title>
 
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="page1.css">
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Pacifico">
 
 
@@ -53,7 +53,7 @@ require('/model_pages/grade_db.php');
             </tr>
             <tr></tr>
         </table>
-        <a class="button" href="page2.php" target="_blank">Page 2</a>
+
 
     </div>
 </center>

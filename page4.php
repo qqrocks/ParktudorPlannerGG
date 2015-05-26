@@ -11,7 +11,7 @@
 </head>
 
 <body >
-<center><img src= "logo.png" alt="some_text" style="width: 222px; height: 169px  "></center>
+<center><img src= "logo.png" alt="some_text" style="width: 222px; height: 169px  " action="list.ad"></center>
 <center><div id="logo" >
 
         <div class="heady"><p>Freshman</p></div>
