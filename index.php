@@ -47,5 +47,5 @@ else if($action='get_advisory'&&isset($_GET['ad_id']) )
 
 else if($action='home')
 {
-    header("Location: .?action=list_advisors");
+    header("Location:index.php?action=list_advisors");
 }

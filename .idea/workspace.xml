@@ -23,22 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page2.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page2.css">
+      <file leaf-file-name="page2.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/page2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
+            <state line="58" column="35" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.6" vertical-offset="629" max-vertical-offset="1224">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page1.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.6739496" vertical-offset="704" max-vertical-offset="1377">
-              <folding>
-                <element signature="n#style#0;n#table#0;n#div#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -52,10 +41,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="30" selection-start="1340" selection-end="1340" vertical-scroll-proportion="-17.653847" vertical-offset="374" max-vertical-offset="969">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="course.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_pages/course.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="22" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-17.0" vertical-offset="612" max-vertical-offset="1207">
+            <state line="62" column="22" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -64,7 +62,7 @@
       <file leaf-file-name="course_selection_db.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_pages/course_selection_db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="901">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
               <folding>
                 <marker date="1431981016014" expanded="true" signature="131:209" placeholder="SELECT * FRO..." />
                 <marker date="1431981016014" expanded="true" signature="592:670" placeholder="SELECT * FRO..." />
@@ -78,7 +76,7 @@
       <file leaf-file-name="student.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_pages/student.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="22" selection-start="807" selection-end="807" vertical-scroll-proportion="-17.653847" vertical-offset="306" max-vertical-offset="901">
+            <state line="45" column="22" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
               <folding />
             </state>
           </provider>
@@ -87,7 +85,7 @@
       <file leaf-file-name="department.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_pages/department.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="22" selection-start="435" selection-end="435" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="629">
+            <state line="25" column="22" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="629">
               <folding />
             </state>
           </provider>
@@ -96,7 +94,7 @@
       <file leaf-file-name="course_sel.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_pages/course_sel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="22" selection-start="543" selection-end="543" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="663">
+            <state line="30" column="22" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -105,7 +103,7 @@
       <file leaf-file-name="school_db.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_pages/school_db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="646">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
               <folding>
                 <marker date="1432060937788" expanded="true" signature="165:205" placeholder="SELECT numbe..school..." />
                 <marker date="1432060937788" expanded="true" signature="393:444" placeholder="INSERT into ..." />
@@ -119,7 +117,7 @@
       <file leaf-file-name="student_db.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model_pages/student_db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1241">
+            <state line="13" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1241">
               <folding>
                 <marker date="1432654243310" expanded="true" signature="145:232" placeholder="SELECT s_f_n..students..." />
                 <marker date="1432654243310" expanded="true" signature="701:744" placeholder="SELECT * FRO..students..." />
@@ -149,12 +147,13 @@
         <option value="$PROJECT_DIR$/model_pages/advisor.php" />
         <option value="$PROJECT_DIR$/model_pages/grade_db.php" />
         <option value="$PROJECT_DIR$/model_pages/student_db.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/model_pages/student.php" />
         <option value="$PROJECT_DIR$/model_pages/department.php" />
         <option value="$PROJECT_DIR$/model_pages/course_sel.php" />
         <option value="$PROJECT_DIR$/model_pages/course.php" />
         <option value="$PROJECT_DIR$/page1.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/page2.php" />
       </list>
     </option>
   </component>
@@ -279,7 +278,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -318,123 +317,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/page2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="561">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2176">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="53" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1105">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/dept_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding>
-            <marker date="1431981016032" expanded="true" signature="-1:-1" placeholder="SELECT * fro..department..." />
-            <marker date="1431981016032" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1431981016032" expanded="true" signature="-1:-1" placeholder="DELETE from ..." />
-            <marker date="1431981016032" expanded="true" signature="-1:-1" placeholder="UPDATE depar..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/grade_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="527">
-          <folding>
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="SELECT Name ..grade_level..." />
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="SELECT Name ..grade_level..." />
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="SELECT grade..grade_level..." />
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="UPDATE grade..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/period_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <marker date="1432060937783" expanded="true" signature="-1:-1" placeholder="SELECT perio..period..." />
-            <marker date="1432060937783" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1432060937783" expanded="true" signature="-1:-1" placeholder="DELETE from ..." />
-            <marker date="1432060937783" expanded="true" signature="-1:-1" placeholder="UPDATE perio..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/advisor_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1020">
-          <folding>
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..advisors..." />
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..advisors..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544">
+        <state line="65" column="0" selection-start="2228" selection-end="2228" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="1394">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/advisor.php">
+    <entry file="file://$PROJECT_DIR$/page1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="612">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/model_pages/course.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="73" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="1173">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/advisor_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="24" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1020">
-          <folding>
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..advisors..." />
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..advisors..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/advisor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="612">
+        <state line="62" column="22" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
@@ -451,61 +357,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/database.php">
+    <entry file="file://$PROJECT_DIR$/model_pages/student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="5" selection-start="460" selection-end="460" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="544">
+        <state line="45" column="22" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/dept_db.php">
+    <entry file="file://$PROJECT_DIR$/model_pages/department.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding>
-            <marker date="1431981016032" expanded="true" signature="-1:-1" placeholder="SELECT * fro..department..." />
-            <marker date="1431981016032" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1431981016032" expanded="true" signature="-1:-1" placeholder="DELETE from ..." />
-            <marker date="1431981016032" expanded="true" signature="-1:-1" placeholder="UPDATE depar..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/grade_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="765">
-          <folding>
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="SELECT Name ..grade_level..." />
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="SELECT Name ..grade_level..." />
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="SELECT grade..grade_level..." />
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1432650915011" expanded="true" signature="-1:-1" placeholder="UPDATE grade..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
+        <state line="25" column="22" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page1.css">
+    <entry file="file://$PROJECT_DIR$/model_pages/course_sel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+        <state line="30" column="22" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="663">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model_pages/period_db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
-          <folding>
-            <marker date="1432060937783" expanded="true" signature="-1:-1" placeholder="SELECT perio..period..." />
-            <marker date="1432060937783" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1432060937783" expanded="true" signature="-1:-1" placeholder="DELETE from ..." />
-            <marker date="1432060937783" expanded="true" signature="-1:-1" placeholder="UPDATE perio..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,7 +392,153 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/model_pages/student_db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1241">
+        <state line="13" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1241">
+          <folding>
+            <marker date="1432654243310" expanded="true" signature="145:232" placeholder="SELECT s_f_n..students..." />
+            <marker date="1432654243310" expanded="true" signature="701:744" placeholder="SELECT * FRO..students..." />
+            <marker date="1432654243310" expanded="true" signature="1291:1404" placeholder="INSERT INTO ..." />
+            <marker date="1432654243310" expanded="true" signature="1530:1574" placeholder="DELETE FROM ..." />
+            <marker date="1432654243310" expanded="true" signature="1700:1741" placeholder="DELETE FROM ..." />
+            <marker date="1432654243310" expanded="true" signature="1889:1952" placeholder="UPDATE stude..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="53" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/dept_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/grade_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="527">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/period_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/advisor_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/advisor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="30" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="73" selection-start="810" selection-end="810" vertical-scroll-proportion="0.0" vertical-offset="309" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/advisor_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="24" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/advisor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/course_selection_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding>
+            <marker date="1431981016014" expanded="true" signature="131:209" placeholder="SELECT * FRO..." />
+            <marker date="1431981016014" expanded="true" signature="592:670" placeholder="SELECT * FRO..." />
+            <marker date="1431981016014" expanded="true" signature="1079:1170" placeholder="INSERT INTO ..." />
+            <marker date="1431981016014" expanded="true" signature="1307:1383" placeholder="DELETE from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="5" selection-start="460" selection-end="460" vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/dept_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/grade_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/period_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/school_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="646">
+          <folding>
+            <marker date="1432060937788" expanded="true" signature="165:205" placeholder="SELECT numbe..school..." />
+            <marker date="1432060937788" expanded="true" signature="393:444" placeholder="INSERT into ..." />
+            <marker date="1432060937788" expanded="true" signature="564:597" placeholder="DELETE from ..." />
+            <marker date="1432060937788" expanded="true" signature="737:784" placeholder="UPDATE schoo..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model_pages/student_db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="325" selection-end="325" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1241">
           <folding>
             <marker date="1432654243310" expanded="true" signature="145:232" placeholder="SELECT s_f_n..students..." />
             <marker date="1432654243310" expanded="true" signature="701:744" placeholder="SELECT * FRO..students..." />
@@ -538,63 +553,68 @@
     <entry file="file://$PROJECT_DIR$/model_pages/advisor_db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="24" selection-start="333" selection-end="333" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="1020">
-          <folding>
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..advisors..." />
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="INSERT into ..." />
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1432233917243" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..advisors..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model_pages/advisor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="36" selection-start="439" selection-end="439" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="731">
-          <folding />
-        </state>
+        <state line="28" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="612" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model_pages/student.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="22" selection-start="807" selection-end="807" vertical-scroll-proportion="-17.653847" vertical-offset="306" max-vertical-offset="901">
+        <state line="45" column="22" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model_pages/department.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="22" selection-start="435" selection-end="435" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="629">
+        <state line="25" column="22" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model_pages/course_sel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="22" selection-start="543" selection-end="543" vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="663">
+        <state line="30" column="22" selection-start="543" selection-end="543" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model_pages/course.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="22" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-17.0" vertical-offset="612" max-vertical-offset="1207">
+        <state line="62" column="22" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2320" selection-end="2320" vertical-scroll-proportion="0.6739496" vertical-offset="704" max-vertical-offset="1377">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#div#0;n#center#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="65" column="0" selection-start="2228" selection-end="2228" vertical-scroll-proportion="-12.576923" vertical-offset="778" max-vertical-offset="1394">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="30" selection-start="1340" selection-end="1340" vertical-scroll-proportion="-17.653847" vertical-offset="374" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="35" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.6" vertical-offset="629" max-vertical-offset="1224">
+          <folding />
         </state>
       </provider>
     </entry>

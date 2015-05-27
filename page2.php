@@ -56,7 +56,7 @@
         <input class="textbox" type="text" name="l_name"/><br />
         <label>Grade:</label>
         <input class="textbox" type="text" name="grade"/><br />
-        <a href="#" class="myButton">   Add   </a>
+        <input type= "submit" valueclass="myButton"
     </div>
     <a class="button" href="page3.php" target="_blank">Page 2</a>
     </div></center>
