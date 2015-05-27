@@ -11,9 +11,10 @@
 
 </head>
 
-<body >
+
+<body>
 <center>
-<a href="?action=list_advisors"><img src="logo.png" style="width: 222px; height: 169px" ></a>
+<a href="?action=home"><img src="logo.png" style="width: 222px; height: 169px" ></a>
 </center>
 <center><div id="logo" >
 
@@ -22,10 +23,10 @@
         <table style="width:750px">
             <tr>
                 <?php
-                $grades=grade_db::getGrades();
+
                 foreach($grades as $grade)
                 {
-                    ?> <td><?php echo grade_db::getGrade($grade);?></td>
+                    ?> <td><?php echo $grade;?></td>
                 <?php
                 } ?>
 

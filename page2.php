@@ -1,3 +1,6 @@
+<?php
+
+?>
 <html >
 <head>
 
@@ -11,11 +14,13 @@
 </head>
 
 <body >
-<center><img src= "logo.png" alt="some_text" style="width: 222px; height: 169px  "></center>
+<center>
+    <a href="?action=home"><img src="logo.png" style="width: 222px; height: 169px" ></a>
+</center>
 <center>
 <div id="logo" >
 
-        <div class="heady"><p>MARGET PHP HERE</p></div>
+    <div class="heady"><p><?php echo $fName. ' '. $lName. "'s Advisory";?></p></div>
 
         <table style="width:400px" class="tbl">
             <tr>
@@ -25,57 +30,17 @@
 
             </tr>
 
-            <tr>
-                <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
 
-            </tr>
-            <tr>
-                <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
 
-            </tr>
-            <tr>
-                <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
-
-            </tr>
-            <tr>
-                <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
-
-            </tr>
-            <tr>
-                <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
-
-            </tr>
-            <tr>
-                <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
-
-            </tr> <tr>
-                <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
-
-            </tr> <tr>
-                <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
-
-            </tr> <tr>
-                <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
-
-            </tr>
+                <?php
+                foreach($students as $student)
+                {?>
+                    <tr>
+                  <td><?php echo $student->getFirst().' '. $student->getLast();?></td>
+                  <td>DELETE</td>
+                <td>CHECK BOX</td>
+                        </tr>
+               <?php } ?>
 
 
 

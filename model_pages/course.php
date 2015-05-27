@@ -6,61 +6,61 @@ class course{
     {}
     public function setId($c_id)
     {
-        $this->$id=$c_id;
+        $this->id=$c_id;
     }
 
     public function setName($Name)
     {
-        $this->$name=$Name;
+        $this->name=$Name;
     }
     public function setDept($de_id)
     {
-        $this->$d_id=$de_id;
+        $this->d_id=$de_id;
     }
     public function setPer($pers)
     {
-        $this->$periods=$pers;
+        $this->periods=$pers;
     }
     public function setCreds($cred)
     {
-        $this->$credits=$cred;
+        $this->credits=$cred;
     }
     public function setReq($required)
     {
-        $this->$req=$required;
+        $this->req=$required;
     }
     public function setSem($sem)
     {
-        $this->$semesters=$sem;
+        $this->semesters=$sem;
     }
     public function getId()
     {
-        return $this->$id;
+        return $this->id;
     }
 
     public function getName()
     {
-        return $this->$name;
+        return $this->name;
     }
     public function getDept()
     {
-        return $this->$d_id;
+        return $this->d_id;
     }
     public function getPer()
     {
-        return $this->$periods;
+        return $this->periods;
     }
     public function getCreds()
     {
-        return $this->$credits;
+        return $this->credits;
     }
     public function getReq()
     {
-        return $this->$req;
+        return $this->req;
     }
     public function getSem()
     {
-        return $this->$semesters;
+        return $this->semesters;
     }
 
 }

@@ -8,27 +8,27 @@ class course_sel
     }
     public function setStuID($sID)
     {
-        $this->$stu_ID=$sID;
+        $this->stu_ID=$sID;
     }
     public function setCourseID($cID)
     {
-        $this->$courseID=$cID;
+        $this->courseID=$cID;
     }
     public function setYear($yr)
     {
-       $this->$year=$yr;
+       $this->year=$yr;
     }
     public function getStuID()
     {
-        return $this->$stu_ID;
+        return $this->stu_ID;
     }
     public function getCourseID()
     {
-        return $this->$courseID;
+        return $this->courseID;
     }
     public function getYear()
     {
-        return $this->$year;
+        return $this->year;
     }
 
 }

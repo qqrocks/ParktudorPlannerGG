@@ -31,20 +31,21 @@ public static function add_advisor($advisor)
 public static function delete_ad($ad_id)
 {
     $db=Datatbase::getDB();
-    $query="DELETE FROM advisors WHERE advisorID='$ad_id'";
+    $query="DELETE FROM advisors WHERE advisorID=$ad_id";
     $db->exec($query);
 
 }
 public static function get_advisor($adID)
 {
     $db=Database::getDB();
-    $query="SELECT * FROM advisors WHERE advisorID=$adID";
+    $query="SELECT * FROM advisors WHERE advisorID= $adID";
     $result=$db->query($query);
     $row=$result->fetch();
     $adv=new advisor();
     $adv->setId($row['advisorID']);
     $adv->setFirst($row['a_f_name']);
     $adv->setLast($row['a_l_name']);
+    return $adv;
 
 }
 }

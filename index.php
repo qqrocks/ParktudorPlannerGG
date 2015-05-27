@@ -24,14 +24,28 @@ if (isset($_GET['action'])) {
      $g10=advisor_db::getAdvisorsByGrade(10);
      $g11=advisor_db::getAdvisorsByGrade(11);
      $g12=advisor_db::getAdvisorsByGrade(12);
-     $grades=grade_db::getGrades();
+     $grade=grade_db::getGrades();
+     $grades=array();
+     foreach($grade as $g)
+     {
+         $grades[]=grade_db::getGrade($g);
+     }
 
-     include('page1.php');
+     include 'page1.php';
  }
+
 else if($action='get_advisory'&&isset($_GET['ad_id']) )
 {
 
-    $advisor=$_GET['ad_id'];
-    $students=student_db::getStuByAd($advisor);
-    header("Location: page2.php");
+    $advisorID=$_GET['ad_id'];
+    $students=student_db::getStuByAd($advisorID);
+    $advisor=advisor_db::get_advisor($advisorID);
+    $fName=$advisor->getFirst();
+    $lName=$advisor->getLast();
+    include 'page2.php';
+}
+
+else if($action='home')
+{
+    header("Location: .?action=list_advisors");
 }
