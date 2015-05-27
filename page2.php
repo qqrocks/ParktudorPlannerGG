@@ -32,13 +32,14 @@
 
 
 
+
                 <?php
                 foreach($students as $student)
                 {?>
                     <tr>
                   <td><?php echo $student->getFirst().' '. $student->getLast();?></td>
-                  <td>DELETE</td>
-                <td>CHECK BOX</td>
+                <td><img src= "Delete button.png" alt="some_text" class="pert"></td>
+                <td><input type="checkbox" name="Delete" value="Delete"><br></td>
                         </tr>
                <?php } ?>
 
