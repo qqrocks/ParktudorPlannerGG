@@ -27,8 +27,8 @@
 
             <tr>
                 <td>Advisee</td>
-                <td>DELETE BUTTON</td>
-                <td>CHCK BOX</td>
+                <td><img src= "Delete button.png" alt="some_text" class="pert"></td>
+                <td><input type="checkbox" name="Delete" value="Delete"><br></td>
 
             </tr>
             <tr>

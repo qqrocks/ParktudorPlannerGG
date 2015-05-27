@@ -57,9 +57,9 @@ th,td{
 .add{
     border:1px solid lightgrey;
     width:400px;
-    height:274px;
+    height:278px;
     margin-left:400px;
-    margin-top: -276px;
+    margin-top: -280px;
 }
 .text{
     font-family: arial;
@@ -114,5 +114,9 @@ label{
 .myButton:active {
     position:relative;
     top:1px;
+}
+.pert{
+  width: 16px;
+    height:16px
 }
 
