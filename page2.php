@@ -50,14 +50,19 @@
         </table>
     <div class="add">
         <p class="text">Add a Student to this Advisory</p>
-        <form action="add_student" method="post">
-        <input type="hidden" value="<?php echo $adviosrID;?>"/>
+        <form action="index.php" method="post">
+            <input type="hidden" name="action" value="add_student" />
+
+        <input type="hidden" name='ad_id' value="<?php echo $advisorID;?>"/>
+
         <label>First Name:</label>
-        <input class="textbox" type="text" name="f_name"/><br />
-        <label>Last Name:</label>
-        <input class="textbox" type="text" name="l_name"/><br />
-        <label>Grade:</label>
-        <input class="textbox" type="text" name="grade"/><br />
+        <input class="textbox" type="input" name='f_name'/><br />
+
+            <label>Last Name:</label>
+         <input class="textbox" type="input" name='l_name'/><br />
+
+            <label>Grade:</label>
+        <input class="textbox" type="input" name='grade'/><br />
         <input type= "submit" value="Add" class="myButton"/>
         </form>
     </div>

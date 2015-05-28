@@ -14,7 +14,7 @@
 
 <body>
 <center>
-<a href="?action=home"><img src="logo.png" style="width: 222px; height: 169px" ></a>
+    <a href="?action=home"><img src="logo.png" style="width: 222px; height: 169px" ></a>
 </center>
 <center><div id="logo" >
 
@@ -41,25 +41,40 @@
                         <?php echo ($g9[$num]->getFirst().' '.$g9[$num]->getLast());?></td>
                     </a>
                     </td>
-                <?php }?>
+                <?php }
+                 else
+              {?>
+                <td></td>
+                <?php } ?>
                 <?php if($num<count($g10)){?>
                    <td><a class="nolookybadnow" href="?action=get_advisory&ad_id=<?php echo $g10[$num]->getID();?>">
                     <?php echo ($g10[$num]->getFirst().' '.$g10[$num]->getLast());?></td>
                     </a>
                     </td>
-                <?php }?>
+                <?php }
+                else
+                {?>
+                    <td></td>
+                <?php } ?>
                 <?php if($num<count($g11)){?>
                     <td><a class="nolookybadnow" href="?action=get_advisory&ad_id=<?php echo $g11[$num]->getID();?>">
                         <?php echo ($g11[$num]->getFirst().' '.$g11[$num]->getLast());?></td>
                     </a>
                     </td>
-                <?php }?>
+                <?php } else
+                {?>
+                    <td></td>
+                <?php } ?>
                 <?php if($num<count($g12)){?>
                     <td><a class="nolookybadnow" href="?action=get_advisory&ad_id=<?php echo $g12[$num]->getID();?>">
                         <?php echo ($g12[$num]->getFirst().' '.$g12[$num]->getLast());?></td>
                     </a>
                     </td>
-                <?php }?>
+                <?php }
+                else
+                {?>
+                    <td></td>
+                <?php } ?>
 
             </tr>
             <?php $num++; } ?>

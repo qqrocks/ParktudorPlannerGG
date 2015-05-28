@@ -11,10 +11,10 @@ require('/model_pages/grade_db.php');
 require('/model_pages/student_db.php');
 require('/model_pages/student.php');
 
-if (isset($_GET['action'])) {
-    $action = $_GET['action'];
-} else if (isset($_POST['action'])) {
+if (isset($_POST['action'])) {
     $action = $_POST['action'];
+} else if (isset($_GET['action'])) {
+    $action = $_GET['action'];
 } else {
     $action = 'list_advisors';
 }
@@ -34,7 +34,7 @@ if (isset($_GET['action'])) {
      include 'page1.php';
  }
 
-else if($action='get_advisory'&&isset($_GET['ad_id']) )
+else if($action=='get_advisory'&&isset($_GET['ad_id']) )
 {
 
     $advisorID=$_GET['ad_id'];
@@ -45,7 +45,7 @@ else if($action='get_advisory'&&isset($_GET['ad_id']) )
     include 'page2.php';
 }
 
-else if($action='home')
+else if($action=='home')
 {
     header("Location:index.php?action=list_advisors");
 }
@@ -53,11 +53,17 @@ else if($action='add_student')
 {
     $first=$_POST['f_name'];
     $last=$_POST['l_name'];
-    $grade=$_POST['grade'];
+    $grade=intval($_POST['grade']);
     $advisorID=$_POST['ad_id'];
     $ID=student_db::getNextID();
     $s=new student;
+    $s->setId($ID);
+    $s->setFirst($first);
+    $s->setLast($last);
+    $s->setAd($advisorID);
+    $s->setGrade($grade);
     student_db::add_student($s);
-    header("Location: .?action=get_adevisory&ad_id=$advisorID");
+    $adID=urlencode($advisorID);
 
+    header("Location: index.php?action=get_advisory&ad_id=$adID");
 }

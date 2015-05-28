@@ -1,4 +1,5 @@
 <?php
+
 class student_db
 {
 public static function _construct(){}
@@ -39,11 +40,12 @@ public static function getStuByAd($a_id)
 public static function add_student($stu){
     $db=Database::getDB();
     $stuID=$stu->getID();
-    $fname=$stu->getFirst();
-    $lname=$stu->getLast();
+    $firstname=$stu->getFirst();
+    $lastname=$stu->getLast();
     $grade=$stu->getGrade();
     $aID=$stu->getAd();
-    $query="INSERT INTO students(studentID, s_f_name, s_l_name, gradeID, advID) VALUES ($stuID, $fname, $lname, $grade, $aID)";
+
+    $query="INSERT INTO students(studentID, s_f_name, s_l_name, gradeID, advisorID) VALUES ($stuID, '$firstname', '$lastname', $grade, $aID)";
     $db->exec($query);
 }
     public static function delete_stu($s_id)
@@ -68,10 +70,10 @@ public static function add_student($stu){
    public static function getNextID()
    {
        $db=Database::getDB();
-       $query='SELECT studentID from students WHERE 1
+       $query='SELECT studentID from students
                 ORDER BY studentID desc';
-       $row=$db->exec($query);
-       $r= $row->fetch;
+       $row=$db->query($query);
+       $r=$row->fetch();
        return $r['studentID']+1;
 
 
