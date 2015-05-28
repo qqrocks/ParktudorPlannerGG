@@ -33,8 +33,11 @@ table,td{
 
     border: 1px solid lightgrey;
     border-collapse: collapse;
-    table-layout: fixed;
+
     margin-right: 400px;
+
+
+
 
 
 }
@@ -44,6 +47,7 @@ td{
     color:lightgrey;
     font-size: 13px;
     font-family: arial;
+
 }
 th,td{
     padding: 5px;
@@ -55,11 +59,19 @@ th,td{
 }
 
 .add{
+
     border:1px solid lightgrey;
     width:400px;
     height:278px;
     margin-left:400px;
-    margin-top: -280px;
+    position:absolute;
+    top:247px;
+    right:230px;
+
+
+
+
+
 }
 .text{
     font-family: arial;
@@ -119,4 +131,7 @@ label{
   width: 16px;
     height:16px
 }
+.yelly{
 
+    display: inline-block;
+}
