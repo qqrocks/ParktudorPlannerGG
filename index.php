@@ -49,3 +49,15 @@ else if($action='home')
 {
     header("Location:index.php?action=list_advisors");
 }
+else if($action='add_student')
+{
+    $first=$_POST['f_name'];
+    $last=$_POST['l_name'];
+    $grade=$_POST['grade'];
+    $advisorID=$_POST['ad_id'];
+    $ID=student_db::getNextID();
+    $s=new student;
+    student_db::add_student($s);
+    header("Location: .?action=get_adevisory&ad_id=$advisorID");
+
+}

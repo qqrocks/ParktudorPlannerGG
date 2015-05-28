@@ -65,4 +65,15 @@ public static function add_student($stu){
         $query="UPDATE students SET gradeID=$nextGrade WHERE gradeID=$currGrade";
         $db->exec($query);
     }
+   public static function getNextID()
+   {
+       $db=Database::getDB();
+       $query='SELECT studentID from students WHERE 1
+                ORDER BY studentID desc';
+       $row=$db->exec($query);
+       $r= $row->fetch;
+       return $r['studentID']+1;
+
+
+   }
 }

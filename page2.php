@@ -50,13 +50,16 @@
         </table>
     <div class="add">
         <p class="text">Add a Student to this Advisory</p>
+        <form action="add_student" method="post">
+        <input type="hidden" value="<?php echo $adviosrID;?>"/>
         <label>First Name:</label>
         <input class="textbox" type="text" name="f_name"/><br />
         <label>Last Name:</label>
         <input class="textbox" type="text" name="l_name"/><br />
         <label>Grade:</label>
         <input class="textbox" type="text" name="grade"/><br />
-        <input type= "submit" valueclass="myButton"
+        <input type= "submit" value="Add" class="myButton"/>
+        </form>
     </div>
     <a class="button" href="page3.php" target="_blank">Page 2</a>
     </div></center>
