@@ -21,7 +21,7 @@
 <div id="logo" >
 
     <div class="heady"><p><?php echo $fName. ' '. $lName. "'s Advisory";?></p></div>
-
+     <div class="yelly">
         <table style="width:400px" class="tbl">
             <tr>
                 <td>Name</td>
@@ -61,7 +61,8 @@
         <input type= "submit" value="Add" class="myButton"/>
         </form>
     </div>
-    <a class="button" href="page3.php" target="_blank">Page 2</a>
+         </div>
+
     </div></center>
 
 
