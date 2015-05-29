@@ -10,6 +10,8 @@ require('/model_pages/database.php');
 require('/model_pages/grade_db.php');
 require('/model_pages/student_db.php');
 require('/model_pages/student.php');
+require('/model_pages/dept_db.php');
+require('/model_pages/department.php');
 
 if (isset($_POST['action'])) {
     $action = $_POST['action'];
@@ -42,14 +44,14 @@ else if($action=='get_advisory'&&isset($_GET['ad_id']) )
     $advisor=advisor_db::get_advisor($advisorID);
     $fName=$advisor->getFirst();
     $lName=$advisor->getLast();
-    include 'page2.php';
+    include_once 'page2.php';
 }
 
 else if($action=='home')
 {
     header("Location:index.php?action=list_advisors");
 }
-else if($action='add_student')
+else if($action=='add_student')
 {
     $first=$_POST['f_name'];
     $last=$_POST['l_name'];
@@ -66,4 +68,20 @@ else if($action='add_student')
     $adID=urlencode($advisorID);
 
     header("Location: index.php?action=get_advisory&ad_id=$adID");
+}
+else if($action=='get_student')
+{
+    $id=$_GET['stuID'];
+
+
+    $depts=dept_db::getDpts();
+    $grade1=grade_db::getGrades();
+    $grades=array();
+    foreach($grade1 as $g)
+    {
+        $grades[]=grade_db::getGrade($g);
+    }
+    $name=student_db::get_student($id)->getFirst().' '.student_db::get_student($id)->getLast();
+    include_once "page3.php";
+
 }

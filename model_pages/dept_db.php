@@ -13,6 +13,22 @@ public static function getDpt($deptID)
     $de->setID($row['deptID']);
     return $de;
 }
+    public static function getDpts()
+    {
+        $db=Database::getDB();
+        $query="SELECT * from department";
+        $res=$db->query($query);
+        $depts=array();
+        foreach($res as $row)
+        {
+        $de=new department();
+        $de->setName($row['name']);
+        $de->setCred($row['requiredCreds']);
+        $de->setID($row['deptID']);
+        $depts[]=$de;
+        }
+        return $depts;
+    }
 public static function add_dept($dept)
 {
     $db=Database::getDB();

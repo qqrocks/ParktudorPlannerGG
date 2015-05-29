@@ -37,7 +37,9 @@
                 foreach($students as $student)
                 {?>
                     <tr>
-                  <td><?php echo $student->getFirst().' '. $student->getLast();?></td>
+                  <td><a href="?action=get_student&stuID=<?php echo $student->getID();?>">
+                      <?php echo $student->getFirst().' '. $student->getLast();?>
+                  </a></td>
                 <td><img src= "Delete button.png" alt="some_text" class="pert"></td>
                 <td><input type="checkbox" name="Delete" value="Delete"><br></td>
                         </tr>

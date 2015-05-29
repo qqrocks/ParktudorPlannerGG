@@ -12,68 +12,36 @@
 </head>
 
 <body >
-<center><img src= "logo.png" alt="some_text" style="width: 222px; height: 169px  "></center>
+<center><a href="?action=home"><img src="logo.png" style="width: 222px; height: 169px" ></a></center>
 <center><div id="logo" >
 
-        <div class="heady"><p>Summary for (marget php here)</p></div>
+        <div class="heady"><p>Summary for <?php echo $name?></p></div>
 
         <table style="width:750px">
             <tr>
                 <td>        </td>
-                <td>Freshman</td>
-                <td>Sophmore</td>
-                <td> Junior </td>
-                <td> Senior </td>
-            </tr>
+                <?php foreach($grades as $grade)
+{?>
+                <td><?php echo $grade?></td>
+                <?php } ?>
+
+           <?php foreach($depts as $dept)
+{?>
 
             <tr>
-                <td>English</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-            </tr>
-            <tr>
-                <td>Math</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-            </tr>
-            <tr>
-                <td>Science</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-            </tr>
-            <tr>
-                <td>History</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-            </tr>
-            <tr>
-                <td>Language</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-            </tr>
-            <tr>
-                <td>Electives</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-            </tr>
-            <tr>
-                <td>Free Periods</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
-                <td>~</td>
+                <td><?php echo $dept->getName();?></td>
+                <?php foreach($grade1 as $grade2){
+                    ?>
+                <td>
+                <?php    $names=course_selection_db::getCoursesByStuYr($id, $grade2, $dept->getID());
+                        foreach($names as $n)
+                        {
+                          echo $n.'<br />';
+                        }
+                        }
+                ?> </td>
+<?php }?>
+
             </tr>
         </table>
 <table class="special">
@@ -106,3 +74,5 @@
     </div>
 </center>
 
+</body>
+</html>

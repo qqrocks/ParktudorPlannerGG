@@ -1,10 +1,10 @@
 <?php
 class course_selection_db
 {
-public static function getCoursesByStuYr($stuID, $year)
+public static function getCoursesByStuYr($stuID, $year, $deptID)
 {
     $db=Database::getDB();
-    $query='SELECT * FROM `course selection` WHERE studentID=$stuID AND year_planned=$year';
+    $query="SELECT * FROM `course_selection` INNER JOIN course ON course.courseID=course_selection.courseID WHERE course.deptID=$deptID AND course_selection.studentID=$stuID AND course_selection.year_planned=$year";
     $res=$db->query($query);
     $stuYr=array();
     foreach($res as $row)
@@ -15,7 +15,14 @@ public static function getCoursesByStuYr($stuID, $year)
         $cs->setStuID($row['studentID']);
         $stuYr[]=$cs;
     }
-    return $stuYr;
+$names=array();
+foreach($stuYr as $c)
+{
+    $name=courses_db::getClass($c->getcourseID())->getName();
+    $names[]=$name;
+}
+
+return $names;
 }
 public static function getSel($stuID, $courseID)
 {
