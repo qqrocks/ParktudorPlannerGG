@@ -41,7 +41,19 @@
                         }
                 ?> </td>
 <?php }?>
-
+            </tr>
+            <tr>
+            <td>Free Periods</td>
+            <?php foreach($grade1 as $grade2){
+                ?>
+            <td>
+                <?php
+                $s1=Calculate::getFrees(1, $id, $grade2);
+                $s2=Calculate::getFrees(2, $id, $grade2);
+                echo 's1: '.$s1.' / s2: '.$s2;
+                ?>
+            </td>
+            <?php } ?>
             </tr>
         </table>
 <table class="special">
@@ -54,8 +66,9 @@
         <td class="celly">
             <form action="index.php" method="post">
             <input type="image" src="editbutton.png" name="edit" class="editit" id="edit"  />
-            <input type="hidden" name="stuID" value=<?php echo $id;?>/>
+            <input type="hidden" name="stuID" value="<?php echo $id;?>"/>
             <input type="hidden" name="action" value="edit_stu"/>
+                </form>
         </td>
     </tr>
 
@@ -73,7 +86,7 @@
             </tr>
 
         </table>
-        <a class="button" href="page4.php" target="_blank">Page 4</a>
+
     </div>
 </center>
 

@@ -1,12 +1,12 @@
 <?php
-class student_db
+class school_db
 {
     public static function _construct()
     {}
     public static function getItem($id)
     {
         $db=Database::getDB();
-        $query="SELECT number from school WHERE type=$id";
+        $query="SELECT number from school WHERE type='$id'";
         $res=$db->query($query);
         $row= $res->fetch();
         return $row['number'];

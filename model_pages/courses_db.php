@@ -6,7 +6,7 @@ public static function _construct(){}
 public static function getClassesbyDept($dID)
 {
     $db=Database::getDB();
-    $query='SELECT * from course WHERE departmentID=$dId';
+    $query="SELECT * from course WHERE deptID=$dID";
     $result=$db->query($query);
     $classes=array();
     foreach($result as $row)
@@ -15,7 +15,7 @@ public static function getClassesbyDept($dID)
         $c->setId($row['courseID']);
         $c->setName($row['courseName']);
         $c->setCreds($row['creditID']);
-        $c->setDept($dID);
+        $c->setDept($row['deptID']);
         $c->setReq($row['required']);
         $c->setPer($row['periodID']);
         $c->setSem($row['semesters']);
@@ -30,7 +30,7 @@ public static function getClass($classID)
     $result=$db->query($query);
     $row=$result->fetch();
     $c= new course();
-    $c->setId($classID);
+    $c->setId($row['courseID']);
     $c->setName($row['courseName']);
     $c->setCreds($row['creditID']);
     $c->setDept($row['deptID']);
@@ -83,6 +83,25 @@ public static function del_class($c_ID)
         $db=Database::getDB();
         $query="UPDATE course SET required=$status WHERE courseID=$courseID";
         $db->exec($query);
+    }
+    public static function getUnusedClasses($stuId, $deptID)
+    {
+        $courses=course_selection_db::getCoursesByDept($stuId, $deptID);
+        $options=courses_db::getClassesbyDept($deptID);
+        $tbr=array();
+        $ids=array();
+        foreach($courses as $c)
+        {
+            $ids[]=$c->getId();
+        }
+        foreach($options as $o)
+        {
+        if(!in_array($o->getId(),$ids))
+            $tbr[]=$o;
+
+        }
+
+        return $tbr;
     }
 }
 ?>

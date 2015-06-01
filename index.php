@@ -12,6 +12,9 @@ require('/model_pages/student_db.php');
 require('/model_pages/student.php');
 require('/model_pages/dept_db.php');
 require('/model_pages/department.php');
+require('/model_pages/calculate.php');
+require('/model_pages/school_db.php');
+require('/model_pages/period_db.php');
 
 if (isset($_POST['action'])) {
     $action = $_POST['action'];
@@ -84,4 +87,36 @@ else if($action=='get_student')
     $name=student_db::get_student($id)->getFirst().' '.student_db::get_student($id)->getLast();
     include_once "page3.php";
 
+}
+else if($action=='edit_stu')
+{
+    $id=$_POST['stuID'];
+    $depts=dept_db::getDpts();
+    $grade=grade_db::getGrade(9);
+    $curr=9;
+    include_once "page4.php";
+}
+else if($action=='grade10')
+{
+    $grade=grade_db::getGrade(10);
+    $id=$_GET['stuID'];
+    $curr=10;
+    $depts=dept_db::getDpts();
+    include_once "page4.php";
+}
+else if($action=='grade11')
+{
+    $grade=grade_db::getGrade(11);
+    $id=$_GET['stuID'];
+    $curr=11;
+    $depts=dept_db::getDpts();
+    include_once "page4.php";
+}
+else if($action=='grade12')
+{
+    $grade=grade_db::getGrade(12);
+    $id=$_GET['stuID'];
+    $curr=12;
+    $depts=dept_db::getDpts();
+    include_once "page4.php";
 }
