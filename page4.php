@@ -93,7 +93,7 @@
             </tr>
             <tr>
                 <td class="tabel2">
-                    ~
+                    ~ <img src= "Delete button.png" alt="some_text" class="pert">
                 </td>
                 <td class="tabel2">
                     ~
@@ -267,7 +267,8 @@
 
 
         </table>
-        <a href="?action=next_year"><img src="logo.png" ></a>
-        <a href="?action=last_year"><img src="logo.png" ></a>
+        <a href="?action=last_year" ><img class="lefty" src="fwd.png" ></a>
+        <a href="?action=next_year" ><img class="righty" src="fwd.png" ></a>
+<p class="coolio">Next Year</p>
     </div>
 </center>

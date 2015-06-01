@@ -75,3 +75,35 @@ padding-left: 20px;
     background-color: red;
     border: 2px solid darkred;
 }
+.lefty{
+width: 65px;
+    height:45px;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+position: relative;
+right: 330px;
+
+
+}
+.righty{
+    width: 60px;
+    height:45px;
+position: relative;
+    left:330px;
+
+
+
+}
+.coolio
+{
+    margin-right: -727px;
+    margin-top: -10px;
+}
+.pert{
+    width: 16px;
+    height:16px
+}

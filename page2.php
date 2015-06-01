@@ -37,7 +37,7 @@
                 foreach($students as $student)
                 {?>
                     <tr>
-                  <td><a href="?action=get_student&stuID=<?php echo $student->getID();?>">
+                  <td ><a class="textor" href="?action=get_student&stuID=<?php echo $student->getID();?>">
                       <?php echo $student->getFirst().' '. $student->getLast();?>
                   </a></td>
                 <td><img src= "Delete button.png" alt="some_text" class="pert"></td>
