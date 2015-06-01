@@ -36,7 +36,7 @@
                 <?php    $names=course_selection_db::getCoursesByStuYr($id, $grade2, $dept->getID());
                         foreach($names as $n)
                         {
-                          echo $n.'<br />';
+                          echo $n->getName().'<br />';
                         }
                         }
                 ?> </td>
@@ -52,7 +52,10 @@
     </tr>
     <tr>
         <td class="celly">
-            <input type="image" src="editbutton.png" name="edit" class="editit" id="edit" />
+            <form action="index.php" method="post">
+            <input type="image" src="editbutton.png" name="edit" class="editit" id="edit"  />
+            <input type="hidden" name="stuID" value=<?php echo $id;?>/>
+            <input type="hidden" name="action" value="edit_stu"/>
         </td>
     </tr>
 

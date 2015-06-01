@@ -15,14 +15,13 @@ public static function getCoursesByStuYr($stuID, $year, $deptID)
         $cs->setStuID($row['studentID']);
         $stuYr[]=$cs;
     }
-$names=array();
-foreach($stuYr as $c)
-{
-    $name=courses_db::getClass($c->getcourseID())->getName();
-    $names[]=$name;
-}
+    $courses=array();
+    foreach($stuYr as $course)
+    {
+        $courses[]=courses_db::getClass($course->getCourseID());
+    }
+    return $courses;
 
-return $names;
 }
 public static function getSel($stuID, $courseID)
 {
