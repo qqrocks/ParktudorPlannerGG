@@ -11,7 +11,7 @@
 </head>
 
 <body >
-<center><img src= "logo.png" alt="some_text" style="width: 222px; height: 169px  " action="list.ad"></center>
+<center><a href="?action=home"><img src="logo.png" style="width: 222px; height: 169px" ></a></center>
 <center><div id="logo" >
 
         <div class="heady"><p>Freshman</p></div>
@@ -267,6 +267,7 @@
 
 
         </table>
-
+        <a href="?action=next_year"><img src="logo.png" ></a>
+        <a href="?action=last_year"><img src="logo.png" ></a>
     </div>
 </center>
