@@ -204,7 +204,21 @@
 
 
         </table>
-        <a href="?action=last_year" ><img class="lefty" src="fwd.png" ></a>
+
+        <?php if($curr==9) {?>
+            <a href="?action=get_student&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
+        <?php }
+        else if($curr==10) {?>
+            <a href="?action=grade9&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
+        <?php }
+        else if($curr==11) {?>
+            <a href="?action=grade10&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
+        <?php }
+        else if($curr==12) {?>
+            <a href="?action=grade11t&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
+        <?php } ?>
+
+
         <?php if($curr==9) {?>
         <a href="?action=grade10&stuID=<?php echo $id?>" ><img class="righty" src="fwd.png" ></a>
         <?php }
@@ -218,7 +232,7 @@
         <a href="?action=get_student&stuID=<?php echo $id?>" ><img class="righty" src="fwd.png" ></a>
         <?php } ?>
 
-<p class="coolio">Next Year</p>
+
     </div></div>
 </center>
 </body>
