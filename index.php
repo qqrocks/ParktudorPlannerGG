@@ -140,3 +140,19 @@ else if($action=='add_class')
     else
         header("Location: index.php?action=grade12&stuID=$id");
 }
+else if($action=='del_sel')
+{
+    $id=$_POST['stuID'];
+    $grade=$_POST['yr'];
+    $courseID=$_POST['courseID'];
+    echo $courseID;
+    course_selection_db::rem_courseSEL($id, $courseID, $grade);
+    if($grade==9)
+        header("Location: index.php?action=edit_stu&stuID=$id");
+    else if($grade==10)
+        header("Location: index.php?action=grade10&stuID=$id");
+    else if($grade==11)
+        header("Location: index.php?action=grade11&stuID=$id");
+    else
+        header("Location: index.php?action=grade12&stuID=$id");
+}

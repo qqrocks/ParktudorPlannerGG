@@ -108,8 +108,11 @@
                         <input type="hidden" name="stuID" value="<?php echo $id;?>">
                         <input type="hidden" name="courseID" value="<?php echo $s[$index]->getID();?>">
                         <input type="hidden" name="action" value="del_sel">
-                        
-                        <img src= "Delete button.png" alt="some_text" class="pert"></td><?php
+                        <input type="hidden" name="yr" value="<?php echo $curr?>">
+
+                        <input type="image" src= "Delete button.png" alt="some_text" class="pert">
+                    </form></td>
+                    <?php
                     }
                     else{
                         ?><td class="tabel2"></td><?php
@@ -177,7 +180,16 @@
                     {
                         if(count($s)>$index)
                         {
-                            ?><td class="tabel2"><?php echo $s[$index]->getName()?><img src= "Delete button.png" alt="some_text" class="pert"></td><?php
+                            ?><td class="tabel2"><?php echo $s[$index]->getName()?>
+                            <form method="post" action="index.php">
+                            <input type="hidden" name="stuID" value="<?php echo $id;?>">
+                            <input type="hidden" name="courseID" value="<?php echo $s[$index]->getID();?>">
+                            <input type="hidden" name="action" value="del_sel">
+                            <input type="hidden" name="yr" value="<?php echo $curr?>">
+
+                            <input type="image" src= "Delete button.png" alt="some_text" class="pert">
+                            </form>
+                            </td><?php
                         }
                         else{
                             ?><td class="tabel2"></td><?php

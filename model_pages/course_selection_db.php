@@ -108,10 +108,10 @@ public static function add_courseSel($cs)
     $query="INSERT INTO course_selection (studentID, year_planned, courseID) VALUES ($sID, $yr, $cID)";
     $db->exec($query);
 }
-public static function rem_courseSEL($stuID, $courseID)
+public static function rem_courseSEL($stuID, $courseID, $yr)
     {
         $db=database::getDB();
-        $query="DELETE from `course selection` WHERE studentID=$stuID AND courseID=$courseID";
+        $query="DELETE from `course_selection` WHERE studentID=$stuID AND courseID=$courseID AND year_planned=$yr";
         $db->exec($query);
     }
 }
