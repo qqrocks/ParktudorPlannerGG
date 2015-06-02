@@ -90,7 +90,7 @@ else if($action=='get_student')
 }
 else if($action=='edit_stu')
 {
-    $id=$_POST['stuID'];
+    $id=$_GET['stuID'];
     $depts=dept_db::getDpts();
     $grade=grade_db::getGrade(9);
     $curr=9;
@@ -119,4 +119,24 @@ else if($action=='grade12')
     $curr=12;
     $depts=dept_db::getDpts();
     include_once "page4.php";
+}
+else if($action=='add_class')
+{
+
+    $id=$_POST['stuID'];
+    $grade=$_POST['grade'];
+    $courseID=$_POST['courses'];
+    $c=new course_sel();
+    $c->setCourseID($courseID);
+    $c->setStuID($id);
+    $c->setYear($grade);
+    course_selection_db::add_courseSel($c);
+    if($grade==9)
+    header("Location: index.php?action=edit_stu&stuID=$id");
+    else if($grade==10)
+        header("Location: index.php?action=grade10&stuID=$id");
+    else if($grade==11)
+        header("Location: index.php?action=grade11&stuID=$id");
+    else
+        header("Location: index.php?action=grade12&stuID=$id");
 }

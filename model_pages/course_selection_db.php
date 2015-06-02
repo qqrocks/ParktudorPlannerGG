@@ -105,7 +105,7 @@ public static function add_courseSel($cs)
         $cID=$cs->getCourseID();
         $yr=$cs->getYear();
         $sID=$cs->getStuID();
-    $query="INSERT INTO `course selection` (studentID, year_planned, courseID) VALUES ($sID, $yr, $cID)";
+    $query="INSERT INTO course_selection (studentID, year_planned, courseID) VALUES ($sID, $yr, $cID)";
     $db->exec($query);
 }
 public static function rem_courseSEL($stuID, $courseID)

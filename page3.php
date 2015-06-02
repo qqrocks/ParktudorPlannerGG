@@ -64,7 +64,7 @@
     </tr>
     <tr>
         <td class="celly">
-            <form action="index.php" method="post">
+            <form action="index.php" method="get">
             <input type="image" src="editbutton.png" name="edit" class="editit" id="edit"  />
             <input type="hidden" name="stuID" value="<?php echo $id;?>"/>
             <input type="hidden" name="action" value="edit_stu"/>

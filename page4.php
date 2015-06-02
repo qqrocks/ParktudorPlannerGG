@@ -62,77 +62,63 @@
             <tr>
                <?php for($i=0; $i<4; $i++) {?>
                 <td class="tabel2">
-                    <select class="qq">
+                    <form id="<?php echo 'myForm'.$i;?>" method="post" action="index.php">
+                        <input type="hidden" name="action" value="add_class">
+                        <input type="hidden" name="stuID" value="<?php echo $id;?>">
+                        <input type="hidden" name="grade" value="<?php echo $curr;?>">
+
+                        <select name="courses" class="qq" onchange="change(<?php echo $i;?>)">
                     <?php $options=courses_db::getUnusedClasses($id, $depts[$i]->getID());
                        foreach($options as $o){?>
-                        <option value="<?php $o->getID();?>"><?php echo $o->getName()?></option>
+                        <option value="<?php echo $o->getID();?>"><?php echo $o->getName()?></option>
                        <?php }?>
+                        <option value="" selected="selected"></option>
                       </select>
+                        </form>
                     </td>
+
                <?php } ?>
 
 
             </tr>
-            <tr>
-                <td class="tabel2">
-                    ~ <img src= "Delete button.png" alt="some_text" class="pert">
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
 
-            </tr>
-            <tr>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
+            <?php
+            $sels=array();
+            for($z=0; $z<4; $z++)
+            {
+                $sels[]=course_selection_db::getCoursesByStuYr($id, $curr, $depts[$z]->getID());
+            }
+            $max=0;
+            foreach($sels as $sel)
+            {
+                $max=max($max, count($sel));
+            }
+            $index=0;
+            while($index<$max)
+            {?>
+                <tr>
+                <?php foreach($sels as $s)
+                {
+                    if(count($s)>$index)
+                    {
+                        ?><td class="tabel2">
+                        <?php echo $s[$index]->getName()?>
+                        <form method="post" action="index.php">
+                        <input type="hidden" name="stuID" value="<?php echo $id;?>">
+                        <input type="hidden" name="courseID" value="<?php echo $s[$index]->getID();?>">
+                        <input type="hidden" name="action" value="del_sel">
+                        
+                        <img src= "Delete button.png" alt="some_text" class="pert"></td><?php
+                    }
+                    else{
+                        ?><td class="tabel2"></td><?php
+                    }
+                }?>
+                </tr>
 
-            </tr>
-            <tr>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                   ~
-                </td>
-
-            </tr>
-            <tr>
-
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-            </tr>
+            <?php $index++;
+            }
+            ?>
 
 
         </table>
@@ -148,68 +134,60 @@
             <tr>
                 <?php for($i=4; $i<count($depts); $i++) {?>
                     <td class="tabel2">
-                        <select class="qq">
+                        <form id="<?php echo 'myForm'.$i;?>" method="post" action="index.php">
+                        <input type="hidden" name="action" value="add_class">
+                        <input type="hidden" name="stuID" value="<?php echo $id;?>">
+                        <input type="hidden" name="grade" value="<?php echo $curr;?>">
+
+                        <select name="courses" class="qq" onchange="change(<?php echo $i;?>)">
                             <?php $options=courses_db::getUnusedClasses($id, $depts[$i]->getID());
                             foreach($options as $o){?>
-                                <option value="<?php $o->getID();?>"><?php echo $o->getName()?></option><?php }?>
+                                <option value="<?php echo $o->getID();?>"><?php echo $o->getName()?></option><?php }?>
+                            <option value="" selected="selected"></option>
                         </select>
+                            </form>
                     </td>
                 <?php } ?>
 
 
             </tr>
-            <tr>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
+            <script>
+                function change(id)
+                {
+                    document.getElementById("myForm"+id).submit();
+                }
+            </script>
+            <?php
+            $sels=array();
+            for($z=4; $z<count($depts); $z++)
+            {
+                $sels[]=course_selection_db::getCoursesByStuYr($id, $curr, $depts[$z]->getID());
+            }
+            $max=0;
+            foreach($sels as $sel)
+            {
+                $max=max($max, count($sel));
+            }
+            $index=0;
+            while($index<$max)
+            {?>
+                <tr>
+                    <?php foreach($sels as $s)
+                    {
+                        if(count($s)>$index)
+                        {
+                            ?><td class="tabel2"><?php echo $s[$index]->getName()?><img src= "Delete button.png" alt="some_text" class="pert"></td><?php
+                        }
+                        else{
+                            ?><td class="tabel2"></td><?php
+                        }
+                    }?>
+                </tr>
 
+                <?php $index++;
+            }
+            ?>
 
-            </tr>
-            <tr>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-
-
-            </tr>
-            <tr>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-
-
-            </tr>
-            <tr>
-
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-                <td class="tabel2">
-                    ~
-                </td>
-
-            </tr>
 
 
         </table>
@@ -230,3 +208,5 @@
 <p class="coolio">Next Year</p>
     </div>
 </center>
+</body>
+</html>
