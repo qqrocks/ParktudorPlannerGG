@@ -27,6 +27,7 @@ body {
     color: black;
 
     margin-right:650px;
+    margin-top:-55px;
 
 }
 .tabel{
@@ -70,6 +71,7 @@ padding-left: 20px;
     padding-bottom: 10px;
     padding-top: 10px;
     color: lightgrey;
+    margin-bottom:-50px;
 }
 .qq{
     background-color: red;
@@ -106,4 +108,9 @@ position: relative;
 .pert{
     width: 16px;
     height:16px
+}
+.specil
+{
+    margin-top: 50px;
+    padding-top: 50px;
 }

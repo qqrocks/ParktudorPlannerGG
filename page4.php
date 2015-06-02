@@ -15,6 +15,7 @@
 <center><div id="logo" >
 
         <div class="heady"><p><?php echo $grade.' Year'?></p></div>
+        <div class="specil">
         <table class="tabel">
             <tr>
                 <td class="special">
@@ -206,7 +207,7 @@
         <?php } ?>
 
 <p class="coolio">Next Year</p>
-    </div>
+    </div></div>
 </center>
 </body>
 </html>

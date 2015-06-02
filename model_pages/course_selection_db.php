@@ -47,7 +47,7 @@ public static function getCoursesByStuYrOnly($stuId, $year)
     public static function getCoursesByDept($stuId, $deptID)
     {
         $db=Database::getDB();
-        $query="SELECT * FROM `course_selection` INNER JOIN course ON course.courseID=course_selection.courseID WHERE  course_selection.studentID=$stuId AND course.deptID=$deptID";
+        $query="SELECT * FROM course_selection INNER JOIN course ON course.courseID=course_selection.courseID WHERE  course_selection.studentID=$stuId AND course.deptID=$deptID";
         $res=$db->query($query);
         $stuYr=array();
         foreach($res as $row)
