@@ -73,7 +73,7 @@
     </tr>
 
 </table>
-        <table class="special2">
+        <table class="special2" >
             <tr>
                 <td class="celly3">
                     Graduate?
