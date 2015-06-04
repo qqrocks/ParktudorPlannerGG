@@ -220,7 +220,7 @@
 
 
         <?php if(Calculate::getFrees(1, $id, $curr)<0 || Calculate::getFrees(2, $id, $curr)<0)
-            echo "You are over-booked. You cannot move on";
+            echo "You are over-booked. You cannot move on.";
         else if($curr==9) {?>
         <a href="?action=grade10&stuID=<?php echo $id?>" ><img class="righty" src="fwd.png" ></a>
         <?php }

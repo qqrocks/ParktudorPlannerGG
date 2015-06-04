@@ -116,7 +116,7 @@ class Calculate
             }
             else if($deptID==7)
             {
-               return Calculate::PEGrad($cIDs);
+                return Calculate::PEGrad($cIDs);
             }
             else if($deptID==5)
             {
