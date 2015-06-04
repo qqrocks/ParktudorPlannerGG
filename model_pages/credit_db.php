@@ -6,7 +6,7 @@ class credit_db
     public static function getCred($credID)
     {
         $db=Database::getDB();
-        $query="SELECT creditNum from credit WHERE creditID=$credID";
+        $query="SELECT creditNum from credit WHERE creditID='$credID'";
         $res=$db->query($query);
         $row= $res->fetch();
         return $row['creditNum'];

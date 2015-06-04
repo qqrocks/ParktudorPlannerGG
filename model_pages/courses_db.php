@@ -6,7 +6,7 @@ public static function _construct(){}
 public static function getClassesbyDept($dID)
 {
     $db=Database::getDB();
-    $query="SELECT * from course WHERE deptID=$dID";
+    $query="SELECT * from course WHERE deptID=$dID ORDER BY courseID";
     $result=$db->query($query);
     $classes=array();
     foreach($result as $row)
@@ -96,7 +96,7 @@ public static function del_class($c_ID)
         }
         foreach($options as $o)
         {
-        if(!in_array($o->getId(),$ids))
+        if(!in_array($o->getId(),$ids)||$deptID==6||$deptID==7)
             $tbr[]=$o;
 
         }

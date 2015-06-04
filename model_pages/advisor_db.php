@@ -17,6 +17,22 @@ public static function getAdvisorsByGrade($grade_id)
     }
     return $advisors;
 }
+    public static function getAdvisors()
+    {
+        $db=Database::getDB();
+        $query="SELECT DISTINCT advisors.advisorID, a_f_name, a_l_name FROM advisors WHERE 1";
+        $result=$db->query($query);
+        $advisors = array();
+        foreach($result as $row){
+            $ad=new advisor();
+            $ad->setId($row['advisorID']);
+            $ad->setFirst($row['a_f_name']);
+            $ad->setLast($row['a_l_name']);
+            $advisors[]=$ad;
+
+        }
+        return $advisors;
+    }
 
 public static function add_advisor($advisor)
 {

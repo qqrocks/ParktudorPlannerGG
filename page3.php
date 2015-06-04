@@ -81,7 +81,11 @@
             </tr>
             <tr>
                 <td class="celly4">
-                    MARGET PHP
+
+                   <?php if(Calculate::grad($id))
+                            echo "YES";
+                   else
+                            echo "NO";?>
                 </td>
             </tr>
 

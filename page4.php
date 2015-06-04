@@ -22,7 +22,7 @@
                     Total Credits Earned:
                 </td>
                 <td class="special">
-                    marget php
+                    <?php echo Calculate::calcCreds($id)?>
                 </td>
             </tr>
             <tr>
@@ -30,7 +30,7 @@
                     Credits Earned This Year:
                 </td>
                 <td class="special">
-                    marget php
+                    <?php echo Calculate::calcCredsYr($id, $curr);?>
                 </td>
             </tr>
             <tr>
@@ -38,7 +38,7 @@
                     Free Periods:
                 </td>
                 <td class="special">
-                    <?php echo 'semester 1- '.Calculate::getFrees(1, $id, $curr).'/ semester 2- '.Calculate::getFrees(2, $id, $curr); ?>
+                    <?php echo 'semester 1: '.Calculate::getFrees(1, $id, $curr).'/ semester 2: '.Calculate::getFrees(2, $id, $curr); ?>
                 </td>
             </tr>
             <tr>
@@ -46,7 +46,7 @@
                     Periods planned:
                 </td>
                 <td class="special">
-                    <?php echo 'semester 1- '.Calculate::calcPers($id, $curr, 1).'/ semester 2- '.Calculate::calcPers($id, $curr, 2); ?>
+                    <?php echo 'semester 1: '.Calculate::calcPers($id, $curr, 1).'/ semester 2: '.Calculate::calcPers($id, $curr, 2); ?>
                 </td>
             </tr>
 
@@ -209,17 +209,19 @@
             <a href="?action=get_student&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
         <?php }
         else if($curr==10) {?>
-            <a href="?action=grade9&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
+            <a href="?action=edit_stu&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
         <?php }
         else if($curr==11) {?>
             <a href="?action=grade10&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
         <?php }
         else if($curr==12) {?>
-            <a href="?action=grade11t&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
+            <a href="?action=grade11&stuID=<?php echo $id?>" ><img class="lefty" src="fwd.png" ></a>
         <?php } ?>
 
 
-        <?php if($curr==9) {?>
+        <?php if(Calculate::getFrees(1, $id, $curr)<0 || Calculate::getFrees(2, $id, $curr)<0)
+            echo "You are over-booked. You cannot move on";
+        else if($curr==9) {?>
         <a href="?action=grade10&stuID=<?php echo $id?>" ><img class="righty" src="fwd.png" ></a>
         <?php }
         else if($curr==10) {?>

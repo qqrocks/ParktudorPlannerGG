@@ -68,7 +68,7 @@ public static function getCoursesByStuYrOnly($stuId, $year)
     public static function getCoursesStu($stuId)
     {
         $db=Database::getDB();
-        $query="SELECT * FROM `course_selection` studentID=$stuId";
+        $query="SELECT * FROM `course_selection` WHERE studentID=$stuId";
         $res=$db->query($query);
         $stuYr=array();
         foreach($res as $row)

@@ -29,6 +29,12 @@ if (isset($_POST['action'])) {
      $g10=advisor_db::getAdvisorsByGrade(10);
      $g11=advisor_db::getAdvisorsByGrade(11);
      $g12=advisor_db::getAdvisorsByGrade(12);
+     $all=advisor_db::getAdvisors();
+     foreach($all as $a)
+     {
+         if(!in_array($a, $g9)&&!in_array($a, $g10)&&!in_array($a, $g11)&&!in_array($a, $g12))
+             $g9[]=$a;
+     }
      $grade=grade_db::getGrades();
      $grades=array();
      foreach($grade as $g)
