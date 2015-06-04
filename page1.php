@@ -19,7 +19,7 @@
 <center><div id="logo" >
 
         <div class="heady"><p>Welcome Advisors!</p></div>
-        <div class="sent">Please select the adivisory of the student you are looking for</div>
+        <div class="sent">Please select the advisory of the student you are looking for:</div>
         <table style="width:750px" class="nolookybadnow">
             <tr>
                 <?php
